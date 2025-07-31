@@ -2,7 +2,7 @@
 
 ### 1. Executive Summary
 
-**Smart Soil Tracker** is a fully offline, low-power precision agriculture platform that enables real-time soil monitoring and intelligent crop recommendation directly in the field. Built on the **FireBeetle 2 ESP32-UE (N16R2)** microcontroller and designed for **energy-constrained environments**, the system operates entirely **without internet** and consumes minimal power — making it a perfect fit for remote infrastructure sites like telecom towers, off-grid farms, and solar-based microstations.
+**Smart Soil Tracker** is a fully offline, low-power precision agriculture platform that enables real-time soil monitoring and intelligent crop recommendation directly in the field. Built on the **FireBeetle 2 ESP32-UE (N16R2) or Arduino UNO R4 WiFi** microcontroller and designed for **energy-constrained environments**, the system operates entirely **without internet** and consumes minimal power — making it a perfect fit for remote infrastructure sites like telecom towers, off-grid farms, and solar-based microstations.
 
 ---
 
@@ -10,13 +10,13 @@
 
 #### ⚡ Low Power Hardware Design
 
-* The **FireBeetle 2 ESP32-UE** operates on **3.3V–5V**, supports **ultra-low-power modes**, and allows deep sleep, ideal for **solar or battery-powered deployments**.
+* The **FireBeetle 2 ESP32-UE or Arduino UNO R4 WiFi** operates on **3.3V–5V**, supports **ultra-low-power modes**, and allows deep sleep, ideal for **solar or battery-powered deployments**.
 * We use the **RS485 4-in-1 Soil Moisture, Temperature, pH & EC Sensor (IP68, 5–30V)** — industrial-grade, robust, and energy-efficient.
 * No reliance on power-hungry display or wireless modules in the field — system only activates networking when syncing.
 
 #### 🛰️ Offline Edge Intelligence
 
-* All data processing and decision logic are handled locally on the ESP32 — no cloud needed.
+* All data processing and decision logic are handled locally on the ESP32 or Arduino UNO R4 WiFi — no cloud needed.
 * The embedded AI model provides crop recommendations on-device.
 * Cloud sync is deferred — triggered only when internet access is detected, minimizing power drain.
 
@@ -41,7 +41,7 @@ This solution aligns directly with **IHS's power and sustainability goals**, par
 | 🔁 Deferred Data Sync        | Reduces unnecessary network activity               |
 | 💾 Local JSON Storage        | Fully functional even without remote databases     |
 | 📡 RS485 Sensor Interface    | EMI-resistant and power-optimized for rural setups |
-| 🔌 ESP32 Deep Sleep Modes    | Conserves energy between measurement cycles        |
+| 🔌 ESP32 or Arduino UNO R4 WiFi Deep Sleep Modes    | Conserves energy between measurement cycles        |
 | 🗺️ Optional Map Integration | Admin map used only when connection is available   |
 
 ---
@@ -62,7 +62,7 @@ This solution aligns directly with **IHS's power and sustainability goals**, par
 ### 6. Future Opportunities With IHS
 
 * **Co-deploy at telecom tower sites** in rural zones to support smart farming nearby.
-* Use ESP32 devices as **power-aware sensor nodes** for infrastructure diagnostics.
+* Use ESP32 or Arduino UNO R4 WiFi devices as **power-aware sensor nodes** for infrastructure diagnostics.
 * Add **remote monitoring dashboards** for energy & soil data in real-time.
 * Pilot **“Power-as-a-Service” models** for farmer cooperatives and villages.
 
