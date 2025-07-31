@@ -16,7 +16,7 @@
 
 #### 🛰️ Offline Edge Intelligence
 
-* All data processing and decision logic are handled locally on the ESP32 or Arduino UNO R4 WiFi — no cloud needed.
+* All data processing and decision logic are handled locally on the **ESP32 or Arduino UNO R4 WiFi** — no cloud needed.
 * The embedded AI model provides crop recommendations on-device.
 * Cloud sync is deferred — triggered only when internet access is detected, minimizing power drain.
 
@@ -62,7 +62,7 @@ This solution aligns directly with **IHS's power and sustainability goals**, par
 ### 6. Future Opportunities With IHS
 
 * **Co-deploy at telecom tower sites** in rural zones to support smart farming nearby.
-* Use ESP32 or Arduino UNO R4 WiFi devices as **power-aware sensor nodes** for infrastructure diagnostics.
+* Use **ESP32 or Arduino UNO R4 WiFi** devices as **power-aware sensor nodes** for infrastructure diagnostics.
 * Add **remote monitoring dashboards** for energy & soil data in real-time.
 * Pilot **“Power-as-a-Service” models** for farmer cooperatives and villages.
 
@@ -78,7 +78,7 @@ This solution aligns directly with **IHS's power and sustainability goals**, par
 
 | Component                  | Power Notes                                          |
 | -------------------------- | ---------------------------------------------------- |
-| FireBeetle 2 ESP32-UE      | 3.3–5V, ultra-low power, external antenna supported  |
+| FireBeetle 2 ESP32-UE or Arduino UNO R4 WiFi      | 3.3–5V, ultra-low power, external antenna supported  |
 | RS485 Soil Sensor (4-in-1) | 5–30V, low current, waterproof (IP68), robust design |
 | Edge AI Crop Logic         | TinyML model runs on-device                          |
 | Offline-First Architecture | Esp 32 server, no dependency on cloud backend  |
