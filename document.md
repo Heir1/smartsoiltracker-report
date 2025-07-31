@@ -41,7 +41,7 @@ This solution aligns directly with **IHS's power and sustainability goals**, par
 | 🔁 Deferred Data Sync        | Reduces unnecessary network activity               |
 | 💾 Local JSON Storage        | Fully functional even without remote databases     |
 | 📡 RS485 Sensor Interface    | EMI-resistant and power-optimized for rural setups |
-| 🔌 ESP32 or Arduino UNO R4 WiFi Deep Sleep Modes    | Conserves energy between measurement cycles        |
+| 🔌 **ESP32 or Arduino UNO R4 WiFi** Deep Sleep Modes    | Conserves energy between measurement cycles        |
 | 🗺️ Optional Map Integration | Admin map used only when connection is available   |
 
 ---
